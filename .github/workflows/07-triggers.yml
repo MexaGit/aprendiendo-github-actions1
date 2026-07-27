@@ -3,10 +3,10 @@ on:
   push:
     branches:
       - main
-      - aprendiendo-github-actions1
+      - aprendiendo-github-actions
   pull_request:
     branches:
-      - aprendiendo-github-actions1
+      - aprendiendo-github-actions
   schedule:
     - cron: '20 4 * * *'  
 
